@@ -1,0 +1,92 @@
+cabal-version:      2.4
+name:               segment-tree-examples
+version:            0.1.0.0
+
+-- A short (one-line) description of the package.
+-- synopsis:
+
+-- A longer description of the package.
+-- description:
+
+-- A URL where users can report bugs.
+-- bug-reports:
+
+-- The license under which the package is released.
+license:            MIT
+license-file:       LICENSE
+author:             sourabhxyz
+maintainer:         swasti@sourabh.xyz
+
+-- A copyright notice.
+-- copyright:
+-- category:
+
+executable at-practice2-j
+    main-is:          at-practice2-j.hs
+
+    -- Modules included in this executable, other than Main.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:
+        base ^>=4.14.3.0,
+        vector,
+        vector-th-unbox,
+        bytestring,
+
+    hs-source-dirs:   app
+    default-language: Haskell2010
+
+executable at-practice2-k
+    main-is:          at-practice2-k.hs
+
+    -- Modules included in this executable, other than Main.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:
+        base ^>=4.14.3.0,
+        vector,
+        vector-th-unbox,
+        bytestring,
+
+    hs-source-dirs:   app
+    default-language: Haskell2010
+
+
+executable at-practice2-l
+    main-is:          at-practice2-l.hs
+
+    -- Modules included in this executable, other than Main.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:
+        base ^>=4.14.3.0,
+        vector,
+        vector-th-unbox,
+        bytestring,
+
+    hs-source-dirs:   app
+    default-language: Haskell2010
+
+
+executable cf-457D2-D
+    main-is:          cf-457D2-D.hs
+
+    -- Modules included in this executable, other than Main.
+    -- other-modules:
+
+    -- LANGUAGE extensions used by modules in this package.
+    -- other-extensions:
+    build-depends:
+        base ^>=4.14.3.0,
+        containers,
+        array,
+        bytestring,
+
+    hs-source-dirs:   app
+    default-language: Haskell2010
